@@ -1,0 +1,82 @@
+.mainButtons{
+    width: 400px;
+    height: 70px;
+    left: 343px;
+    top: 190px;
+
+    background: #FFE897;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+    margin-top: 20px;
+    color: #644200;
+    margin-left: 310px;
+}
+
+.lastGamesButton{
+    width: 174px;
+    height: 58px;
+    left: 893px;
+    top: 521px;
+
+    background: #6D7B32;
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-left: 700px;
+    color: #FFE897;
+
+}
+
+.picture{
+    background: url("../img/image 15.png") no-repeat;
+    width: 471px;
+    height: 106px;
+    margin-left: 275px;
+}
+
+.user{
+    display: inline-flex;
+}
+
+.bookPicture{
+    background: url("../img/image 13.png") no-repeat;
+    width: 471px;
+    height: 318px;
+    margin-left: 280px;
+}
+
+/*.user{*/
+/*    display: flex;*/
+/*}*/
+.avatar{
+    background: url("../img/image 1.png") no-repeat;
+    width: 115px;
+    height: 144px;
+    margin-right: 20px;
+}
+
+textarea{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    height: 70px;
+    line-height: 59px;
+    background-color: #5B3905;
+    margin-right: 600px;
+    margin-top: 50px;
+    display: block;
+    border: none;
+    overflow: auto;
+    resize: none;
+    outline: none;
+
+    color: #FFE897;
+}

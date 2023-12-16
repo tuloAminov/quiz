@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Join</title>
+    <link rel="stylesheet" href="css/UserRoom.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: #5B3905; margin-left: 575px">
+    <div class="UserRoom" id="login_form">
+        <div class="enter">
+            <text class="roomNumber">Номер комнаты</text>
+            <form method="post" th:action="@{/playing}" th:object="${room}">
+                <input class="room" type="text" th:field="*{id}">
+                <button class="arrowButton2" style="margin-top: 140px">
+                    <p class="arrow"></p>
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

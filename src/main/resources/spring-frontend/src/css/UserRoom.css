@@ -1,0 +1,57 @@
+.enter{
+    margin-top: 100px;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    background: url("../img/image 20.png") no-repeat;
+    width: 668px;
+    height: 454px;
+    padding-top: 200px;
+}
+
+.UserRoom{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+
+}
+
+.roomNumber{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 59px;
+    margin-left: 230px;
+    color: #FFE897;
+
+    text-shadow: 0 4px 4px #644200;
+}
+
+.room{
+    width: 400px;
+    height: 70px;
+    left: 266px;
+    top: 318px;
+margin-left: 130px;
+    background: #FFFFFF;
+    margin-top: 20px;
+}
+
+.arrowButton2 {
+    width: 130px;
+    height: 83px;
+    margin-left: 600px;
+    background: #FFFFFF;
+    margin-top: -200px;
+    box-shadow: 0 10px 25px #D2D2D2;
+    border-radius: 20px;
+}
+.arrow{
+    width: 86px;
+    height: 18px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background: url("../img/Arrow 2.png") no-repeat;
+    padding-bottom: 80px;
+}

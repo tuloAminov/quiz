@@ -1,0 +1,84 @@
+
+body{
+    background: #5B3905;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    font-size: 25px;
+}
+
+.enterSystem{
+    width: 516px;
+    height: 321px;
+    color: #5B3905;
+    background: url("../img/image 23.png") no-repeat;
+    padding-top: 140px;
+    margin-bottom: -140px;
+    margin-left: 50PX;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 74px;
+    text-align: center;
+}
+
+.login{
+    width: 340px;
+    height: 50px;
+    left: 359px;
+    top: 298px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+}
+
+.password{
+    width: 340px;
+    height: 50px;
+    left: 359px;
+    top: 298px;
+    margin-top: 30px;
+    margin-left: -10px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+text{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-right: 60px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.textLogin{
+    padding-right: 70px;
+}
+.arrowButton{
+    width: 130px;
+    height: 83px;
+    left: 910px;
+    top: 494px;
+    margin-left: 500px;
+    margin-top: 40px;
+    background: #FFFFFF;
+
+    box-shadow: 0 10px 25px #D2D2D2;
+    border-radius: 20px;
+}
+.arrow{
+    width: 86px;
+    height: 18px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background: url("../img/Arrow 2.png") no-repeat;
+    padding-bottom: 80px;
+}

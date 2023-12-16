@@ -1,0 +1,30 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/Registration.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: #5B3905; margin-top: -340px">
+    <div class="Registration">
+        <div class="paper">
+            <h1 class='enterSystem'>ВОЙТИ В СИСТЕМУ</h1>
+        </div>
+        <form method="post" th:action="@{/login/auth}" th:object="${loginForm}">
+            <text class="textLogin">Логин</text>
+            <input class="login" type="text" placeholder="Логин" th:field="*{username}">
+            <br>
+            <text class="textLogin">Пароль</text>
+            <input class="password" type="password" placeholder="Пароль" th:field="*{password}">
+        </form>
+        <button class="arrowButton">
+            <p class="arrow"></p>
+        </button>
+    </div>
+</body>
+</html>

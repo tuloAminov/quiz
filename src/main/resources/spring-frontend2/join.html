@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Join</title>
+  <style>
+    #root_container{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    #books{
+      width: 50%;
+      border-collapse: collapse;
+    }
+
+    table{
+      margin: 25px;
+    }
+    th{
+      text-align: left;
+    }
+
+    th,td{
+      border-bottom: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+      <div id="login_form">
+          <form method="post" th:action="@{/playing}" th:object="${room}">
+              <input class="login_item" type="text" placeholder="enter room id" th:field="*{id}">
+              <input class="login_item" type="submit" value="Join">
+          </form>
+      </div>
+</body>
+</html>
